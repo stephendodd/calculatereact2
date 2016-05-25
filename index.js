@@ -20373,7 +20373,19 @@
 	    return React.createElement(
 	      'div',
 	      null,
-	      'hello'
+	      React.createElement(ButtonController, null)
+	    );
+	  }
+	});
+
+	var ButtonController = React.createClass({
+	  displayName: 'ButtonController',
+
+	  render: function render() {
+	    return React.createElement(
+	      'div',
+	      null,
+	      'hellobutton'
 	    );
 	  }
 	});

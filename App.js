@@ -5,7 +5,17 @@ var App = React.createClass({
   render: function() {
     return (
       <div>
-        hello
+        <ButtonController />
+      </div>
+    );
+  }
+})
+
+var ButtonController = React.createClass({
+  render: function() {
+    return (
+      <div>
+        hellobutton
       </div>
     );
   }
